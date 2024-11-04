@@ -1,0 +1,81 @@
+/* General styling for container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Note form styling */
+.note-form {
+    width: 80%;
+    max-width: 500px;
+    margin: 1em 0;
+}
+
+#note-title, #note-content {
+    width: 100%;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+#note-content {
+    height: 100px;
+    resize: vertical;
+}
+
+/* Notes list styling */
+#notes-list-container {
+    width: 80%;
+    max-width: 500px;
+}
+
+#notes-list {
+    list-style: none;
+    padding: 0;
+}
+
+.note-item {
+    background: #f4f4f9;
+    margin: 0.5em 0;
+    padding: 1em;
+    border-radius: 4px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.note-item h3 {
+    margin: 0;
+}
+
+.note-item p {
+    margin: 0.5em 0;
+    color: #555;
+}
+
+.note-item .timestamp {
+    font-size: 0.8em;
+    color: #999;
+}
+
+.note-item .actions {
+    margin-top: 1em;
+    text-align: right;
+}
+
+.edit-button, .delete-button {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    margin: 0 0.5em;
+}
+
+.delete-button {
+    color: #ff4d4d;
+}

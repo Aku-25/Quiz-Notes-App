@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Result</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Result Section -->
+        <div class="result-container">
+            <h1>Your Quiz Result</h1>
+            <p id="score-display">Score: <span id="score">0</span>/10</p>
+            <p id="feedback-message"></p>
+            <button class="nav-button" id="save-score" onclick="saveScore()">Save Score</button>
+            <p id="confirmation-message" style="display: none;">Score saved!</p>
+            <button class="nav-button" id="retake-quiz" onclick="retakeQuiz()">Retake Quiz</button>
+        </div>
+    </div>
+    <script src="result.js"></script>
+</body>
+</html>

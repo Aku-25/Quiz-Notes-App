@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="stylesheet" href="notes-style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Notes</h1>
+        <!-- New Note Section -->
+        <div class="note-form">
+            <input type="text" id="note-title" placeholder="Note Title">
+            <textarea id="note-content" placeholder="Write your note..."></textarea>
+            <button class="nav-button" onclick="saveNote()">Save Note</button>
+        </div>
+
+        <!-- Notes List Section -->
+        <div id="notes-list-container">
+            <h2>Your Notes</h2>
+            <ul id="notes-list"></ul>
+        </div>
+    </div>
+    <script src="notes.js"></script>
+</body>
+</html>

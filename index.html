@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz & Notes Web App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!--Greeeting SEction-->
+        <div class="greeting-container" id="greeting-container">
+           <h1 id="greeting-message"> Welcome!</h1> 
+           <p id="sub-greeting">Select an option below to get started.</p>
+        </div>
+        <!--navigation button-->
+        <div class="navigation-container">
+           <button class="nav-button" id="start-quiz" onclick="navgateTo('quiz')">Start Quiz</button>
+           <button class="nav-button" id="start-result"onclick="navgateTo('result')">Result</button>
+           <button class="nav-button" id="start-notes"onclick="navgateTo('notes')">View Notes</button>
+           <button class="nav-button" id="start-history"onclick="navgateTo('history')">Quiz History</button>
+        </div>
+    </div>
+   <script src="home.js"></script>
+
+</body>
+</html>
